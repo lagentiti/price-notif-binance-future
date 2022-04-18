@@ -51,7 +51,7 @@ const resetPriceList = () => {
  * @returns retourn un message
  */
 const addPrice = (price) => {
-    animals.push(price);
+    configPrice.push(price);
     return alert(`
         vous avez bien ajouter ${price} a la list des prix
     `);
