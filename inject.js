@@ -3,7 +3,7 @@
 
 // var notifSong = new Audio("https://fr.tadingview.com/static/bundles/fired.ecfdbbef82db7347aed64ea12a69d5df.mp3");
 var configPrice = [
-    "124"
+    ""
 ];
 
 const getPrice = (callback) => {
@@ -15,7 +15,10 @@ setInterval(() => {
     getPrice((price) => {
         for(a = 0; a <= configPrice.length; a++) {
             if(configPrice[a] <= price) {
-                deletePrice(configPrice[a]);
+                let myIndex = configPrice.indexOf(configPrice[a]);
+                if (myIndex !== -1) {
+                    configPrice.splice(myIndex, 1);
+                }
                 alert(`
                     la crypto viens de dépasser les ${configPrice[a]}
                 `);
