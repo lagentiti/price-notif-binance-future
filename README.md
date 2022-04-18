@@ -2,7 +2,7 @@
 
 ## inject script
 
-### 1. ouvrire le terminale avec la touche f12
+### 1. worker the terminal with the f12 key
 
 ### 2. console
 ![console](https://raw.githubusercontent.com/lagentiti/price-notif-binance-future/main/readme_img/console.jpg)
@@ -15,6 +15,6 @@
 
 ![past](https://raw.githubusercontent.com/lagentiti/price-notif-binance-future/main/readme_img/past.jpg)
 
-## 5. ajouter des prix d'alert avec la command "addPrice('1')"
+## 5. add alert prices with the command "addPrice('1')"
 
 ![addPrice](https://raw.githubusercontent.com/lagentiti/price-notif-binance-future/main/readme_img/addPrice.jpg)
