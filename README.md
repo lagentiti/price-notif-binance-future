@@ -2,7 +2,7 @@
 
 ## inject script
 
-### 1. worker the terminal with the f12 key
+### 1. open the terminal with the f12 key
 
 ### 2. console
 ![console](https://raw.githubusercontent.com/lagentiti/price-notif-binance-future/main/readme_img/console.jpg)
